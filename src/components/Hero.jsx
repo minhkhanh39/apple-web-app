@@ -8,7 +8,7 @@ const Hero = () => {
         if (videoRef.current) videoRef.current.playbackRate = 2;
     }, [])
     return (
-        <section>
+        <section id="hero">
             <div>
                 <h1>MacBook Pro</h1>
                 <img src="/public/title.png" alt="MacBook Title" />
@@ -22,4 +22,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;
