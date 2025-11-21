@@ -18,7 +18,7 @@ export default function MacbookModel16(props) {
   const { color } = useMacbookStore();
   const { nodes, materials, scene } = useGLTF('/models/macbook-16-transformed.glb');
 
-  const texture = useTexture('/public/screen.png')
+  const texture = useTexture('/screen.png')
 
   useEffect(() => {
     scene.traverse((child) => {
